@@ -1,0 +1,42 @@
+
+#estudios {
+    margin-top: 2%;
+    margin-bottom: 12%;
+    margin-left: 370px;
+    margin-right: auto;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+    width: 80%;
+    display: flex;
+}
+
+#estudios tr:nth-child(even){background-color: #f2f2f2;}
+
+#estudios tr:hover {background-color: #ddd;}
+
+#estudios td, 
+#estudios th {
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+}
+
+#estudios th {
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #FFB4A2 ;
+}
+
+
+
+
+
+
+
+
+
+
+

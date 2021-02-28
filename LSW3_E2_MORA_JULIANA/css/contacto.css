@@ -1,0 +1,96 @@
+form {
+    background: #fff;
+    background: linear-gradient(to right, #6FB3B8, #BADFE7);
+    width: 30%;
+    padding: 30px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.8);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 8%;
+    margin-bottom: 12%;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+    color: black;
+}
+
+form .contact {
+    position: relative;
+    margin: 45px;
+    color: black;
+}
+
+input, textarea {
+    background: none;
+    font-size: 18px;
+    padding: 25px 10px 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #2f3036;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    color: rgb(94, 93, 93);
+}
+
+input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label {
+    position: absolute;
+    top: -14px;
+    font-size: 14px;
+    color: var(--colorTextos);
+}
+
+label {
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+input:focus~.bar::before, textarea:focus~.bar::before {
+    width: 100%;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.bar::before {
+    content: '';
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #f6f6f2, #df5d77);
+    transition: 0.3s ease all;
+    left: 0%;
+}
+
+button {
+    background: black;
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
